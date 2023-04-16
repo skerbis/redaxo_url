@@ -323,6 +323,36 @@ Dazu kann man ein zusätzliches YFormfeld anlegen der das Indexieren speichert. 
 
 
 * Sind alle gewünschten Domains in YRewrite vollständig und korrekt angegeben, einschließlich separater 404-Fehlerseite?
+
+
+
+
+
+
+
+
+Url\UrlManager {#181
+    #values: array:16 [
+        "id" => 203
+        "profile_id" => 5
+        "article_id" => 26
+        "clang_id" => 1
+        "data_id" => 1
+        "is_user_path" => 0
+        "is_structure" => 0
+        "url" => "//travel.mycms.dev/anfrage_reise/mythos-corfu-1.html"
+        "url_hash" => "3af9891f9e74ee5dd500b8b653d46168909b3cfc"
+        "sitemap" => 0
+        "lastmod" => "2023-04-16T14:21:39+02:00"
+        "seo" => array:3 [
+            "title" => false
+            "description" => false
+            "image" => false
+        ]
+        "createdate" => "2023-04-16 14:21:39"
+        "createuser" => "klxm"
+        "updatedate" => "2023-04-16 14:21:39"
+        "updateuser" => "klxm"
 * Wurden Änderungen an der Datenbank vorgenommen, die sich mit dem Löschen des REDAXO-Caches. Datensätze, die außerhalb von REDAXO erstellt, verändert oder gelöscht werden, benötigen ein Auffrischen des Caches.
 * Sind die URL-Profile korrekt oder haben sich Änderungen am verknüpften REDAXO-Artikel oder der Struktur der Datenbankfelder ergeben?
 * Sind innerhalb der URL-Profile Einschränkungen vorgenommen worden? Bspw. können Datensätze gefiltert werden, die dann keine URL erzeugen. Die erzeugten URLs lassen sich im REDAXO-Backend überprüfen.
